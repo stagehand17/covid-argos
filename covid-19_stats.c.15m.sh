@@ -36,12 +36,12 @@ BITBAR_DIR=~/.config/argos/covid-bitbar
 # Choose which states you want stats for. Any states you add here will        #
 # be shown within the dropdown menu. Be sure to separate each state in        #
 # its own parentheses.                                                        #
-STATES=("North Carolina" "New York" "California")
+STATES=("North Carolina" "New York")
 
 # ALTERNATIVE MODE: Instead of choosing states, you can choose to have        #
 # the top n states. If TOP_N=true, shows N_STATES number of states with       #
 # the most cases.                                                             #
-TOP_N=false firstoccur=$LINENO #stores line number for later function
+TOP_N=true firstoccur=$LINENO #stores line number for later function
 N_STATES=15
 # =========================================================================== #
 
