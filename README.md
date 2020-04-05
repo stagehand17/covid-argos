@@ -8,9 +8,9 @@ This shell script allows you to see frequently-updated stats for the COVID-19 pa
 - corona-cli `https://github.com/ahmadawais/corona-cli`
 
 # Configuration
-The following variables are intended to be set by the user. BITBAR_DIR is the directory you would like to keep the small cache files this script will create. STATES is an array of strings for each state you want detailed COVID-19 stats of. TOP_N allows you to change between listing the top 'n' states or the specific states in STATES. N_STATES determines how many states are listed by TOP_N. TOP_N can also be modified by the menu in the application.
+The following variables are intended to be set by the user. ARGOS_DIR is the directory you would like to keep the small cache files this script will create. STATES is an array of strings for each state you want detailed COVID-19 stats of. TOP_N allows you to change between listing the top 'n' states or the specific states in STATES. N_STATES determines how many states are listed by TOP_N. TOP_N can also be modified by the menu in the application.
 ```
-BITBAR_DIR=~/Code/bitbar_plugins                                              
+ARGOS_DIR=~/.config/argos/covid-argos                                             
 STATES=("North Carolina" "New York" "California")                             
 TOP_N=false                                                                   
 N_STATES=15  
