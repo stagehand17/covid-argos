@@ -3,7 +3,7 @@
 # Created by: Wilson Goode
 # Modified for Argos by: David Madison Hardaway, Jr.
 # Pulled from GitHub: March 30, 2020
-# Last update for Argos: April 1, 2020
+# Last update for Argos: April 5, 2020
 
 # <bitbar.title>COVID-19 Stats</bitbar.title>
 # <bitbar.version>v1.0</bitbar.version>
@@ -36,7 +36,7 @@ BITBAR_DIR=~/.config/argos/covid-bitbar
 # Choose which states you want stats for. Any states you add here will        #
 # be shown within the dropdown menu. Be sure to separate each state in        #
 # its own parentheses.                                                        #
-STATES=("North Carolina" "New York")
+STATES=("North Carolina" "New York" "California")
 
 # ALTERNATIVE MODE: Instead of choosing states, you can choose to have        #
 # the top n states. If TOP_N=true, shows N_STATES number of states with       #
